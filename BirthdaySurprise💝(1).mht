@@ -1,0 +1,236 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///storage/emulated/0/Download/index.html
+Subject: =?utf-8?Q?Birthday=20Surprise=20=F0=9F=92=9D?=
+Date: Wed, 12 Aug 2026 02:15:29 +0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--IUWQMJBejIYGJMgSknOkjbz3szyGo54U143UMjtc4F----"
+
+
+------MultipartBoundary--IUWQMJBejIYGJMgSknOkjbz3szyGo54U143UMjtc4F----
+Content-Type: text/html
+Content-ID: <frame-1C5F24A3DDEBE710DAF5CFEDFEA92758@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///storage/emulated/0/Download/index.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-9b6721f8-8218-44ae-9446-bf06a6833a32@mhtml.blink" />
+
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Birthday Surprise =F0=9F=92=9D</title>
+
+</head>
+<body>
+<canvas id=3D"fireworks"></canvas>
+
+<div class=3D"page active" id=3D"passwordPage">
+<h1>=F0=9F=92=96 Welcome =F0=9F=92=96</h1><p>A little surprise for someone =
+special =F0=9F=A5=BA</p><p>=F0=9F=94=90 Enter Password</p>
+<input type=3D"password" id=3D"password" placeholder=3D"Enter password">
+<button>Unlock =F0=9F=92=97</button>
+<p class=3D"error" id=3D"passwordError">Wrong passcode!<br>Sahi password da=
+lo na aisa mat karo =F0=9F=A5=BA</p>
+<button id=3D"retryButton" style=3D"display:none">Try Again =F0=9F=94=84</b=
+utton>
+</div>
+
+<div class=3D"page" id=3D"balloonPage">
+<h1>=F0=9F=8E=88 Pop the Balloons =F0=9F=8E=88</h1><p>Pop the balloons =F0=
+=9F=92=95</p>
+<div class=3D"balloons">
+<div class=3D"balloon"></div><div class=3D"balloon"></div>
+<div class=3D"balloon"></div><div class=3D"balloon"></div>
+<div class=3D"balloon"></div>
+</div></div>
+
+<div class=3D"page" id=3D"specialPage"><h2>I made something special for you=
+ =F0=9F=A5=BA=F0=9F=92=9D</h2><p>Do you want to see? =F0=9F=A5=BA</p>
+<button class=3D"yes">YES =E2=9D=A4=EF=B8=8F</button><button class=3D"no">N=
+O =F0=9F=98=AD</button></div>
+
+<div class=3D"page" id=3D"noPage"><h2>Why did you click no?! =F0=9F=98=AD</=
+h2><p>Try again =F0=9F=A5=BA=F0=9F=92=97</p><button>Try Again =F0=9F=94=84<=
+/button></div>
+
+<div class=3D"page" id=3D"birthdayPage">
+<div class=3D"birthday-title">HAPPY BIRTHDAY<br>MY LOVE =E2=9D=A4=EF=B8=8F<=
+/div><p class=3D"small-text">click to open you special wish =F0=9F=92=8C</p=
+>
+<div class=3D"gift-area"><div class=3D"gift" id=3D"gift">
+<div class=3D"gift-body"></div><div class=3D"ribbon-v"></div><div class=3D"=
+gift-lid"><div class=3D"ribbon-h"></div></div>
+<div class=3D"bow left"></div><div class=3D"bow right"></div></div><p>Tap t=
+he gift box =F0=9F=8E=81</p></div>
+</div>
+
+<div class=3D"page" id=3D"wishPage">
+<div class=3D"final-title">my heartbeat =F0=9F=92=93</div>
+<div class=3D"wish-box"><p>
+Happy Birthday =F0=9F=98=AD=E2=9C=A8<br><br>
+Happy birthday, my sunshine! =E2=98=80=EF=B8=8F You light up my world every=
+day.<br><br>
+Wishing you a birthday as beautiful as your heart.<br><br>
+Happy birthday to the one who holds my heart =F0=9F=8C=B9.<br><br>
+Your smile melts my heart =F0=9F=98=A9, and your love fills my soul =F0=9F=
+=AB=82.<br><br>
+Happy birthday to the woman who makes every moment special =F0=9F=98=98
+</p><h2>=F0=9F=8E=82=F0=9F=92=96=F0=9F=8E=89</h2></div>
+</div>
+
+
+
+</body></html>
+------MultipartBoundary--IUWQMJBejIYGJMgSknOkjbz3szyGo54U143UMjtc4F----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9b6721f8-8218-44ae-9446-bf06a6833a32@mhtml.blink
+
+@charset "utf-8";
+
+* { box-sizing: border-box; }
+
+body { margin: 0px; min-height: 100vh; font-family: Arial, sans-serif; back=
+ground: radial-gradient(circle, rgb(53, 16, 77), rgb(18, 0, 21) 80%); color=
+: white; text-align: center; overflow-x: hidden; }
+
+.page { width: 100%; max-width: 520px; min-height: 100vh; padding: 30px 20p=
+x; display: none; flex-direction: column; justify-content: center; align-it=
+ems: center; margin: auto; animation: 0.7s ease 0s 1 normal none running fa=
+de; position: relative; z-index: 2; }
+
+.page.active { display: flex; }
+
+h1 { font-size: 34px; color: rgb(255, 143, 199); text-shadow: rgb(255, 22, =
+132) 0px 0px 15px; }
+
+h2 { font-size: 27px; color: rgb(255, 212, 232); }
+
+p { font-size: 18px; line-height: 1.6; }
+
+input { width: 85%; max-width: 320px; padding: 15px; border: 2px solid rgb(=
+255, 92, 170); border-radius: 30px; outline: none; text-align: center; font=
+-size: 18px; margin: 15px 0px; background: rgb(255, 240, 247); }
+
+button { border: 0px; padding: 14px 30px; border-radius: 30px; background: =
+linear-gradient(45deg, rgb(255, 33, 124), rgb(255, 92, 168)); color: white;=
+ font-size: 17px; cursor: pointer; margin: 8px; box-shadow: rgba(255, 45, 1=
+40, 0.5) 0px 0px 20px; }
+
+.yes { background: linear-gradient(45deg, rgb(34, 185, 87), rgb(110, 231, 1=
+27)); }
+
+.no { background: linear-gradient(45deg, rgb(229, 29, 77), rgb(255, 93, 120=
+)); }
+
+.error { color: rgb(255, 156, 189); font-weight: bold; display: none; }
+
+.balloons { display: flex; justify-content: center; gap: 12px; flex-wrap: w=
+rap; margin: 35px 0px 55px; }
+
+.balloon { width: 62px; height: 82px; border-radius: 50%; cursor: pointer; =
+position: relative; animation: 2s ease-in-out 0s infinite normal none runni=
+ng float; }
+
+.balloon:nth-child(1) { background: rgb(255, 50, 125); }
+
+.balloon:nth-child(2) { background: rgb(66, 135, 255); }
+
+.balloon:nth-child(3) { background: rgb(255, 201, 40); }
+
+.balloon:nth-child(4) { background: rgb(173, 76, 255); }
+
+.balloon:nth-child(5) { background: rgb(85, 217, 74); }
+
+.balloon::after { content: ""; position: absolute; bottom: -45px; left: 50%=
+; width: 1px; height: 45px; background: rgb(221, 221, 221); }
+
+.balloon.popped { animation: 0.3s ease 0s 1 normal forwards running pop; po=
+inter-events: none; }
+
+.birthday-title { font-size: 42px; font-weight: bold; color: rgb(255, 102, =
+173); text-shadow: rgb(255, 255, 255) 0px 0px 8px, rgb(255, 0, 128) 0px 0px=
+ 20px, rgb(255, 0, 128) 0px 0px 40px; animation: 1.2s ease 0s infinite norm=
+al none running beat; }
+
+.small-text { font-size: 17px; color: rgb(255, 213, 232); }
+
+.gift-area { margin: 35px 0px; cursor: pointer; }
+
+.gift { width: 170px; height: 145px; position: relative; margin: auto; filt=
+er: drop-shadow(rgb(255, 179, 0) 0px 0px 20px); animation: 2s ease 0s infin=
+ite normal none running giftFloat; }
+
+.gift-body { position: absolute; width: 150px; height: 105px; left: 10px; b=
+ottom: 0px; background: linear-gradient(135deg, rgb(233, 30, 99), rgb(142, =
+23, 69)); border-radius: 5px; }
+
+.gift-lid { position: absolute; width: 170px; height: 38px; left: 0px; top:=
+ 5px; background: linear-gradient(135deg, rgb(255, 64, 129), rgb(194, 24, 9=
+1)); border-radius: 7px; z-index: 3; transition: 1s; }
+
+.ribbon-v { position: absolute; width: 28px; height: 145px; left: 71px; bot=
+tom: 0px; background: rgb(255, 213, 79); z-index: 2; }
+
+.ribbon-h { position: absolute; width: 170px; height: 24px; left: 0px; top:=
+ 10px; background: rgb(255, 213, 79); z-index: 4; }
+
+.bow { position: absolute; width: 55px; height: 38px; background: rgb(255, =
+213, 79); top: -27px; z-index: 5; border-radius: 50% 50% 10%; }
+
+.left { left: 32px; transform: rotate(-25deg); }
+
+.right { right: 32px; transform: rotate(25deg); }
+
+.gift.open .gift-lid { transform: translateY(-90px) rotate(-8deg); }
+
+.wish-box { background: rgba(255, 255, 255, 0.07); border: 1px solid rgba(2=
+55, 150, 210, 0.3); border-radius: 25px; padding: 22px 20px; margin-top: 20=
+px; box-shadow: rgba(255, 30, 130, 0.2) 0px 0px 30px; }
+
+.final-title { font-size: 38px; color: rgb(255, 115, 183); text-shadow: rgb=
+(255, 22, 132) 0px 0px 20px; animation: 1.2s ease 0s infinite normal none r=
+unning beat; }
+
+.heart { position: fixed; bottom: -30px; font-size: 20px; animation: 5s lin=
+ear 0s 1 normal forwards running heartUp; z-index: 1; pointer-events: none;=
+ }
+
+.confetti { position: fixed; width: 8px; height: 12px; top: -20px; z-index:=
+ 10; animation: 4s linear 0s 1 normal forwards running fall; pointer-events=
+: none; }
+
+#fireworks { position: fixed; inset: 0px; width: 100%; height: 100%; pointe=
+r-events: none; z-index: 1; display: none; }
+
+@keyframes fade {=20
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: none; }
+}
+
+@keyframes float {=20
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes pop {=20
+  100% { transform: scale(1.8); opacity: 0; }
+}
+
+@keyframes beat {=20
+  50% { transform: scale(1.08); }
+}
+
+@keyframes giftFloat {=20
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes heartUp {=20
+  100% { transform: translateY(-110vh) rotate(360deg); opacity: 0; }
+}
+
+@keyframes fall {=20
+  100% { transform: translateY(110vh) rotate(720deg); opacity: 0; }
+}
+------MultipartBoundary--IUWQMJBejIYGJMgSknOkjbz3szyGo54U143UMjtc4F------
