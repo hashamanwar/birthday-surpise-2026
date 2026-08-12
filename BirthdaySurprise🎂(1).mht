@@ -1,0 +1,132 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///storage/emulated/0/Download/index-2.html
+Subject: =?utf-8?Q?Birthday=20Surprise=20=F0=9F=8E=82?=
+Date: Thu, 13 Aug 2026 00:14:10 +0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--yW8opoSfL6zkfYjmZTGwlFrtrDDzVlZ888srSeNg9y----"
+
+
+------MultipartBoundary--yW8opoSfL6zkfYjmZTGwlFrtrDDzVlZ888srSeNg9y----
+Content-Type: text/html
+Content-ID: <frame-14F52CCB83D0D205F9005F6AAF71A5DB@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///storage/emulated/0/Download/index-2.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-d10f5198-f6b3-4c29-b057-0b77914da66b@mhtml.blink" />
+
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Birthday Surprise =F0=9F=8E=82</title>
+
+</head>
+<body>
+
+<div class=3D"card">
+  <section id=3D"page1">
+    <div class=3D"big">=F0=9F=8E=89=F0=9F=8E=88</div>
+    <h1>Birthday Surprise!</h1>
+    <p>Sab balloons pop karo! =F0=9F=98=84=F0=9F=8E=88</p>
+    <div class=3D"balloons" id=3D"balloons">
+      <span class=3D"balloon">=F0=9F=8E=88</span>
+      <span class=3D"balloon">=F0=9F=8E=88</span>
+      <span class=3D"balloon">=F0=9F=8E=88</span>
+      <span class=3D"balloon">=F0=9F=8E=88</span>
+      <span class=3D"balloon">=F0=9F=8E=88</span>
+    </div>
+    <p id=3D"balloonMsg">5 balloons baqi hain =E2=9D=A4=EF=B8=8F</p>
+  </section>
+
+  <section id=3D"page2" class=3D"hidden">
+    <div class=3D"big">=F0=9F=94=90</div>
+    <h1>Locked Surprise</h1>
+    <p>Password dalo =F0=9F=99=88</p>
+    <input id=3D"password" type=3D"password" inputmode=3D"numeric" maxlengt=
+h=3D"4" placeholder=3D"=E2=80=A2=E2=80=A2=E2=80=A2=E2=80=A2">
+    <br>
+    <button>Unlock =E2=9D=A4=EF=B8=8F</button>
+    <div id=3D"error"></div>
+  </section>
+
+  <section id=3D"page3" class=3D"hidden">
+    <div class=3D"heart">=F0=9F=92=96</div>
+    <h1>HAPPY BIRTHDAY<br>DEAR FATIMA =F0=9F=8E=82=E2=9C=A8</h1>
+    <button>Open Your Wish =F0=9F=92=8C</button>
+  </section>
+
+  <section id=3D"page4" class=3D"hidden">
+    <div class=3D"big">=F0=9F=8E=82=F0=9F=8C=B8=E2=9C=A8</div>
+    <h1>Happy Birthday, Fatima! =E2=9D=A4=EF=B8=8F</h1>
+    <p>
+      Happy birthday, my sunshine! =E2=98=80=EF=B8=8F<br>
+      Allah tumhari zindagi ko hamesha khushiyon, mohabbat aur kamyabi se b=
+har de. =F0=9F=A4=B2=E2=9D=A4=EF=B8=8F<br><br>
+      Tumhari har dua qabool ho, har khushi tumhare qareeb aaye,
+      aur tum hamesha isi tarah muskurati raho. =F0=9F=A5=B9=E2=9C=A8<br><b=
+r>
+      <b>Have the most beautiful birthday! =F0=9F=8E=82=F0=9F=92=96</b>
+    </p>
+    <div class=3D"big">=F0=9F=A5=B3=F0=9F=8E=81=F0=9F=8C=B9</div>
+  </section>
+</div>
+
+
+
+</body></html>
+------MultipartBoundary--yW8opoSfL6zkfYjmZTGwlFrtrDDzVlZ888srSeNg9y----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d10f5198-f6b3-4c29-b057-0b77914da66b@mhtml.blink
+
+@charset "utf-8";
+
+* { box-sizing: border-box; }
+
+body { margin: 0px; min-height: 100vh; display: flex; justify-content: cent=
+er; align-items: center; font-family: Arial, sans-serif; text-align: center=
+; background: linear-gradient(135deg, rgb(255, 230, 240), rgb(255, 214, 231=
+), rgb(255, 240, 246)); color: rgb(107, 33, 69); }
+
+.card { width: min(92%, 430px); padding: 28px 20px; border-radius: 28px; ba=
+ckground: rgba(255, 255, 255, 0.88); box-shadow: rgba(150, 40, 90, 0.18) 0p=
+x 12px 40px; }
+
+h1 { margin: 8px 0px 14px; font-size: 30px; }
+
+p { font-size: 18px; line-height: 1.6; }
+
+.hidden { display: none; }
+
+button { border: 0px; border-radius: 18px; padding: 13px 22px; margin: 8px;=
+ font-size: 17px; font-weight: bold; cursor: pointer; background: rgb(255, =
+111, 165); color: white; box-shadow: rgba(255, 70, 140, 0.25) 0px 5px 14px;=
+ }
+
+button:active { transform: scale(0.96); }
+
+.balloons { display: flex; justify-content: center; gap: 8px; flex-wrap: wr=
+ap; margin: 20px 0px; }
+
+.balloon { font-size: 64px; cursor: pointer; transition: 0.25s; }
+
+.balloon:hover { transform: scale(1.1); }
+
+.balloon.popped { visibility: hidden; transform: scale(0); }
+
+input { width: 170px; padding: 13px; border: 2px solid rgb(255, 156, 192); =
+border-radius: 14px; text-align: center; font-size: 20px; outline: none; }
+
+#error { color: rgb(213, 43, 104); font-weight: bold; min-height: 28px; }
+
+.big { font-size: 42px; margin: 8px 0px; }
+
+.heart { font-size: 58px; animation: 1s ease 0s infinite normal none runnin=
+g pulse; }
+
+@keyframes pulse {=20
+  50% { transform: scale(1.12); }
+}
+------MultipartBoundary--yW8opoSfL6zkfYjmZTGwlFrtrDDzVlZ888srSeNg9y------
